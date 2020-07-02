@@ -19,11 +19,13 @@ Using ML models to detect if a customer is likely to default his next credit car
 ![Distribution of Education and SEX](Images/figure4.png)
 ### 2 : ___Data Modelling___
     a. Applied Univariate Feature Selection using ANOVA F-test and P-values.
-    b. Used One Hot Encoding ***(OHE)***, a technique of Feature Engineering to extract new features from the Education column.
+    b. Used One Hot Encoding(OHE), a technique of Feature Engineering to extract new features from the Education column.
     c. Used standad scalar to transform the data.
     d. We used cross validation method for training the data.
-![Feature Importance](Images/figure6.png)
+    
+!['Feature Importance'](Images/figure6.png)
 ![Correlation Heatmap](Images/figure7.png)
+
 ***This is a binary classification problem, wherein we have only two outcomes ie. Default (YES = 1 or NO = 0).***  So, we use different classification models to predict the desired outcome.
 ### 3 : ___Evaluation of the results___
    This dataset is hightly ***imbalanced***. Hence using accuracy as the only metric is not advisable. So in order to select the right model, we use ***Matthews Correlation          Coefficient*** as a metric to better evaluate the performance of our model. The results are given below:
