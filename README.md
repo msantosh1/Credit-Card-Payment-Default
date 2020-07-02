@@ -24,7 +24,7 @@ Using ML models to detect if a customer is likely to default his next credit car
     d. We used cross validation method for training the data.
     
 !['Feature Importance'](Images/figure6.png 'Feature importance')
-![Correlation Heatmap](Images/figure7.png 'Correlation HeatMap'|width=100)
+![Correlation Heatmap](Images/figure7.png|width=100'Correlation HeatMap')
 
 
 
