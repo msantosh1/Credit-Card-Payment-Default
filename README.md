@@ -27,7 +27,7 @@ Using ML models to detect if a customer is likely to default his next credit car
 ![Correlation Heatmap](Images/figure7.png 'Correlation HeatMap')
 
 
-***___This is a binary classification problem, wherein we have only two outcomes ie. Default (YES = 1 or NO = 0).***___  So, we use different classification models to predict the desired outcome.
+___***This is a binary classification problem, wherein we have only two outcomes ie. Default (YES = 1 or NO = 0).***___  So, we use different classification models to predict the desired outcome.
 
 
 ### 3 : ___Evaluation of the results___
