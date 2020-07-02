@@ -4,7 +4,7 @@ Using ML models to detect if a customer is likely to default his next credit car
     Our client is a Credit card comapny in Taiwan. They wanted to know if we can predict whether a customer will default his next credit card payment.
 ## My Goal
     Goal is to develop a Machine Learning model to predict whether an account will default next month, given demographics and historical data.  
-## Data Source : https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+### Data Source : https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
 ## Process steps in developing and evaluating the ML model to address the problem.
 ### 1 : ___Data Cleaning/ Exploratory Data Analysis (EDA)___
     a. Loaded the client data which is an excel file.
@@ -24,10 +24,14 @@ Using ML models to detect if a customer is likely to default his next credit car
     d. We used cross validation method for training the data.
     
 !['Feature Importance'](Images/figure6.png 'Feature importance')
-![Correlation Heatmap](Images/figure7.png 'Correlation HeatMap')
+![Correlation Heatmap](Images/figure7.png 'Correlation HeatMap'100X20)
+
+
 
 
 ___***This is a binary classification problem, wherein we have only two outcomes ie. Default (YES = 1 or NO = 0).***___  So, we use different classification models to predict the desired outcome.
+
+
 
 
 ### 3 : ___Evaluation of the results___
