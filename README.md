@@ -40,3 +40,5 @@ ___***This is a binary classification problem, wherein we have only two outcomes
 
 ## Conclusion
    We can see that the accuracy for ***Kernel SVM is 0.82*** , which is higher than the other models. Moreover, the accuracy scores between the train and test data are same which    indicates that there is neither overfitting or underfitting. Since this dataset is imbalanced, it is good to take into consideration the Matthews Correlation Coefficient. This    score of ***0.33 is also the highest for Kernel SVM.*** Hence we can conclude that Kernel SVM is the ***best model*** that we recommend. Next to be considered is Logistic          Regression.
+
+Reference: Data Science Projects with Python by Stephen Klosterman, 2019 , Packt Publishing
